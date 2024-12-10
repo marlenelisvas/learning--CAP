@@ -6,6 +6,7 @@
     "@sap/cds": "^7",
     "express": "^4"
   },
+  "devDependencies": { "sqlite3": "*" },
   "scripts": {
     "start": "cds-serve"
   }
