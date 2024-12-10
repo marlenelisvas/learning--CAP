@@ -1,4 +1,5 @@
 
+sqlite: schema adminService deploy
 
 compile:
 	cds watch
