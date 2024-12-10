@@ -6,8 +6,23 @@
     "@sap/cds": "^7",
     "express": "^4"
   },
-  "devDependencies": { "sqlite3": "*" },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1.7.7"
+  },
   "scripts": {
     "start": "cds-serve"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "[development]": {
+          "kind": "sqlite",
+          "credentials": {
+            "url": "db.sqlite"
+          }
+        }
+      }
+    }
   }
+     
 }
