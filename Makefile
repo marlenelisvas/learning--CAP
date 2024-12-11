@@ -1,5 +1,5 @@
 
-sqlite: schema adminService deploy
+sqlite: schema adminService cdsEnv addData deploy
 
 compile:
 	cds watch
